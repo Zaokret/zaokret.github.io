@@ -18,6 +18,7 @@ a {
   border: 5px dotted blueviolet;
   text-decoration: none;
   font-size: 24px;
+  margin-bottom: 10px;
 }
 
 a:visited {
@@ -44,6 +45,7 @@ header {
 
 nav {
     display: flex;
+    flex-direction: column;
     justify-self: center;
     align-self: center;
 }
